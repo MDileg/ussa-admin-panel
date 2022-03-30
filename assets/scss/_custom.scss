@@ -1,0 +1,122 @@
+// Here you can add other styles
+button.danger {
+     
+    border: none;
+    background-color: transparent !important;
+  }
+   button.danger:hover {
+    background-color: #ff2205;
+  }
+    button.danger:active {
+    background-color: #9e1200;
+  }
+ 
+.danger svg  {
+    fill: red !important;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+  }
+ 
+
+  td img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  tr th{
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+
+
+
+  .search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+    background-color: #8f8f8f;
+    padding-right: 40px;
+    color: white;
+  }
+  .input-search::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+  }
+  .btn-search:focus ~ .input-search {
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(46, 44, 44);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  }
+  .input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  }
+
+
+
+
+
+
+
+  // ------------------------------Table--------------------------------
+.subTit{
+  text-align: center;
+}
+
+.d-sm-down-none{
+  &:hover{
+    background: red;
+  }
+}
+
+.uploadButton{
+  display:none;
+}
+
+
+
+.uploadLabel {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: blue;
+  color: #ffffff;
+}
